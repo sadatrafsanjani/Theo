@@ -1,0 +1,46 @@
+@font-face {
+    src: url('../font/rimouski_sb-webfont.ttf');
+}
+
+.vbox {
+    
+    -fx-background-color: #6a89cc;
+}
+
+.temperature-label {
+    
+    -fx-font-family: "Rimouski Sb";
+    -fx-font-size: 50px;
+    -fx-text-fill: #f1f2f6;
+}
+
+.status-label {
+    -fx-font-family: "Rimouski Sb";
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-text-fill: #f1f2f6;
+}
+
+.city-label {
+    -fx-font-family: "Rimouski Sb";
+    -fx-font-size: 14px;
+    -fx-text-fill: #f1f2f6;
+}
+
+.humidity-label, .wind-label {
+    -fx-font-family: "Rimouski Sb";
+    -fx-font-size: 14px;
+    -fx-text-fill: #f1f2f6;
+}
+
+.exit-button {
+    -fx-background-image: url("../img/exit.png");
+    -fx-background-position: center;
+    -fx-background-size: 70%;
+    -fx-background-color: #6a89cc;
+    -fx-background-repeat: no-repeat;
+}
+
+.exit-button:hover {
+    -fx-background-color: #ff3333;
+}
